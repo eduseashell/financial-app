@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+.f-footer {
+	height: 150px;
+	background-color: #00979C;
+}
+
+.f-footer ul {
+	list-style-type: none;
+	color: white;
+	font-weight: bold;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+.f-footer li {
+	display: inline;
+	padding: 10px;
+}

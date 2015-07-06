@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="financial">
+<head>
+<meta charset="UTF-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" type="image/x-icon" href="app/imgs/icon/favicon.png" />
+<title>Financial application</title>
+
+<link rel="stylesheet" href="app/css/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="app/css/styles.css" />
+</head>
+<body>
+
+	<!-- Menu Bar -->
+	<div ng-include="'app/modules/master/views/MenuBar.html'"></div>
+	<!-- Page Content -->
+	<div ng-include="'app/modules/master/views/Content.html'"></div>
+	<!-- Page Footer -->
+	<div ng-include="'app/modules/master/views/Footer.html'"></div>
+
+	<script type="text/javascript" src="app/modules/js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="app/modules/js/angular.min.js"></script>
+	<script type="text/javascript" src="app/modules/js/angular-route.min.js"></script>
+	<script type="text/javascript" src="app/modules/js/financial.js"></script>
+	
+	<script type="text/javascript" src="app/modules/master/js/master.js"></script>
+	<script type="text/javascript" src="app/modules/master/js/controller.js"></script>
+	
+	<script type="text/javascript" src="app/modules/finance/js/finance.js"></script>
+	<script type="text/javascript" src="app/modules/finance/simplecompound/js/simpleandcompound.js"></script>
+	<script type="text/javascript" src="app/modules/finance/simplecompound/js/controller.js"></script>
+	
+	<div ng-include="'app/modules/master/views/Script.html'"></div>
+	
+</body>
+</html>
