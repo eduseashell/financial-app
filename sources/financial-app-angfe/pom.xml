@@ -2,16 +2,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>edu.kwon.financialapp</groupId>
+		<groupId>edu.kwon</groupId>
 		<artifactId>financial-app</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<groupId>edu.kwon.financialapp.fe</groupId>
-	<artifactId>financial-app-angfe</artifactId>
+	<groupId>edu.kwon.financial-app</groupId>
+	<artifactId>frontend</artifactId>
 	<packaging>war</packaging>
-	<name>Financial Application</name>
-	<description>Financial Application with AngularJS</description>
+	<name>Financial Application - Front end</name>
+	<description>Financial Application with AngularJS - Font end</description>
 
 	<build>
 	
